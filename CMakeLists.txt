@@ -10,7 +10,7 @@ set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 set(GEODE_DISABLE_PRECOMPILED_HEADERS ON)
 set(GEODE_DONT_INSTALL_MODS ON)
 
-project(BareBonesMod VERSION 1.0.4)
+project(BareBonesMod VERSION 1.0.5)
 
 add_library(${PROJECT_NAME} SHARED main.cpp)
 
